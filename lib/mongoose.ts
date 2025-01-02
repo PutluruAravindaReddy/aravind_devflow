@@ -36,7 +36,7 @@ const dbConnect = async (): Promise<Mongoose> => {
       })
       .catch((err) => {
         console.log("Error connecting to MongoDB", err);
-        return null;
+        throw err;
       });
   }
 
