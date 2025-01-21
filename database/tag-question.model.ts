@@ -15,6 +15,6 @@ const TagQuestionSchema = new Schema(
 );
 
 const TagQuestion =
-  models?.tagquestion || model<ITagQuestion>("TagQuestion", TagQuestionSchema);
+  models?.TagQuestion || model<ITagQuestion>("TagQuestion", TagQuestionSchema);
 
 export default TagQuestion;
