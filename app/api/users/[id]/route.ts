@@ -6,7 +6,7 @@ import { NotFoundError } from "@/lib/http-errors";
 import dbConnect from "@/lib/mongoose";
 import { UserSchema } from "@/lib/validations";
 
-// GET User by ID
+// GET /api/Users/[id]
 export async function GET(
   _: Request,
   { params }: { params: Promise<{ id: string }> }
