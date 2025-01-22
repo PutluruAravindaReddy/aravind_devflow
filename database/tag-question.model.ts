@@ -1,6 +1,6 @@
 import { model, models, Schema, Types, Document } from "mongoose";
 
-interface ITagQuestion {
+export interface ITagQuestion {
   tag: Types.ObjectId;
   question: Types.ObjectId;
 }
