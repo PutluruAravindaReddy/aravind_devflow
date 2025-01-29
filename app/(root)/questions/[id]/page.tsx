@@ -5,7 +5,7 @@ const QuestionDetails = async ({ params }: RouteParams) => {
 
   return (
     <div>
-      <p>QuestionDetails</p>
+      <p>{id} : QuestionDetails</p>
     </div>
   );
 };
