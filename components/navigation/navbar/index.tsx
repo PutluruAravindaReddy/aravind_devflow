@@ -32,7 +32,7 @@ const Navbar = async () => {
           <UserAvatar
             id={session.user.id}
             name={session.user.name!}
-            imageUrl={session.user?.image}
+            imageUrl={session.user?.image ?? undefined}
           />
         )}
 
