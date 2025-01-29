@@ -4,7 +4,7 @@ import React from "react";
 import { auth } from "@/auth";
 import QuestionForm from "@/components/forms/QuestionForm";
 
-const page = async () => {
+const AskQuestion = async () => {
   const session = await auth();
   if (!session) return redirect("/sign-in");
 
@@ -19,4 +19,4 @@ const page = async () => {
   );
 };
 
-export default page;
+export default AskQuestion;
