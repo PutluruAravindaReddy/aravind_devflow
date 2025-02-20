@@ -1,6 +1,6 @@
 "use server";
 
-import mongoose, { Error, FilterQuery } from "mongoose";
+import mongoose, { FilterQuery } from "mongoose";
 import { revalidatePath } from "next/cache";
 
 import ROUTES from "@/constants/routes";
