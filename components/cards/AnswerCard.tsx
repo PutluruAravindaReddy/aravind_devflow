@@ -1,12 +1,12 @@
-import { Suspense } from "react";
 import Link from "next/link";
+import { Suspense } from "react";
 
 import ROUTES from "@/constants/routes";
-import { getTimeStamp } from "@/lib/utils";
 import { hasVoted } from "@/lib/actions/vote.action";
+import { getTimeStamp } from "@/lib/utils";
 
-import UserAvatar from "../UserAvatar";
 import { Preview } from "../editor/Preview";
+import UserAvatar from "../UserAvatar";
 import Votes from "../votes/Votes";
 
 const AnswerCard = ({
