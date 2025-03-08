@@ -1,13 +1,13 @@
+import { Suspense } from "react";
 import Link from "next/link";
 
 import ROUTES from "@/constants/routes";
 import { getTimeStamp } from "@/lib/utils";
-
-import { Preview } from "../editor/Preview";
-import UserAvatar from "../UserAvatar";
-import { Suspense } from "react";
-import Votes from "../votes/Votes";
 import { hasVoted } from "@/lib/actions/vote.action";
+
+import UserAvatar from "../UserAvatar";
+import { Preview } from "../editor/Preview";
+import Votes from "../votes/Votes";
 
 const AnswerCard = ({
   _id,
